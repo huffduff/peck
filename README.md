@@ -4,7 +4,7 @@ A platform independent build tool with monorepo support
 
 ## The goal
 
-To build a platform and language independent cli build tool, similar to Bazel, that leverages existing tools to do the heavy liftimg.
+To build a platform and language independent cli build tool, similar to Bazel, that leverages existing tools to do the heavy lifting.
 
 ### Docker
 
@@ -14,7 +14,7 @@ With quality Docker implementations available on all popular platforms, containe
 
 [Woodpecker](https://github.com/woodpecker-ci/woodpecker) already provides the containerized build logic needed for almost all of these tasks. And with the easy plugin system, can adapt to fit most use cases.
 
-By bringing up a preconfigured Woodpecker instance locally, we should be able to take advantage of staged builds, included cached results, pretty easily. It also means a remote Woodpecker instance running in a cluster can offload builds for performance and scalability, similar to how Bazel does it but with a significantly easier setup.
+By bringing up a preconfigured Woodpecker instance locally we should be able to take advantage of staged builds, including cached results, pretty easily. It also means a remote Woodpecker instance running in a cluster can offload builds for performance and scalability, similar to how Bazel does it but with a significantly easier setup.
 
 ## Initial build tools
 
